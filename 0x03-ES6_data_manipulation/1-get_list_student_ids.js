@@ -1,5 +1,4 @@
 export default function getListStudentIds(objArr) {
-  const newArr = [];
   if (!Array.isArray(objArr)) {
     return [];
   }
