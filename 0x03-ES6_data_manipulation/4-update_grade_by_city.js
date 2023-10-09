@@ -10,4 +10,5 @@ export default function updateStudentGradeByCity(arr, city, newGrades) {
     const grade = gradeObject ? gradeObject.grade : 'N/A';
     return { ...student, grade };
   });
+  return updatedStudents;
 }
